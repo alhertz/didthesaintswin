@@ -1,6 +1,8 @@
 // $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
-
 // @import 'sass-bootstrap/lib/bootstrap';
+
+/* Global Stuff
+-----------------*/
 body {
   background: #c1a746;
   padding: 0;
@@ -8,6 +10,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 100;
   color: #000;
+  padding: 1.0em;
 }
 a {
   color: #FFF;
@@ -22,27 +25,6 @@ a {
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
-}
-
-footer {
-  position: absolute; 
-  bottom: 0; 
-  left: 0; 
-  margin: 1.0em;
-  width: 100%;
-  .social {
-    position: absolute; 
-    top: 0; 
-    right: 0;
-    .facebook {
-      margin-right: 4px;
-      margin-left: -15px;
-      margin-bottom: -1px;
-    }
-    .github {
-      margin-right: 1.0em;
-    }
-  }
 }
 /* Answer
 -----------------*/
@@ -66,5 +48,27 @@ footer {
   img {
     max-width: 100%;
     border: 5px solid #FFF;
+  }
+}
+/* Links
+-----------------*/
+footer {
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  width: 100%;
+  .credit {
+    float: left;
+    margin: 0 0 1.0em 1.0em;
+  }
+  .social {
+    float: right;
+    .facebook {
+      margin-right: 4px;
+      margin-left: -15px;
+      margin-bottom: -1px;
+    }
+    .github {
+    }
   }
 }
