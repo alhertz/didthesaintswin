@@ -20,16 +20,20 @@
       <!--Google Fonts-->
       <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
       <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-      <link rel="stylesheet" href="styles/0ca576fd.main.css">
-      <script src="scripts/vendor/f7f27360.modernizr.js"></script>
+      <!-- build:css(.tmp) styles/main.css -->
+      <link rel="stylesheet" href="styles/main.css">
+      <!-- endbuild -->
+      <!-- build:js scripts/vendor/modernizr.js -->
+      <script src="bower_components/modernizr/modernizr.js"></script>
+      <!-- endbuild -->
     </head>
     <body>
       <!--[if lt IE 10]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
       <section class="answer">
-        <h1>Yes.</h1>
-        <h3>They beat the Carolina Panthers 31 to 13.</h3>
+        <h1>No.</h1>
+        <h3>They lost to the St. Louis Rams 16 to 27.</h3>
       </section>
       <footer>
         <div class="credit">
@@ -42,7 +46,11 @@
           <iframe src="http://ghbtns.com/github-btn.html?user=alhertz&repo=didthesaintswin&type=fork&count=true" allowtransparency="true" class="github" frameborder="0" scrolling="0" width="95" height="20"></iframe>
         </div>
       </footer>
-      <script src="scripts/1137e1f5.vendor.js"></script>
+      <!-- build:js scripts/vendor.js -->
+      <!-- bower:js -->
+      <script src="bower_components/jquery/jquery.js"></script>
+      <!-- endbower -->
+      <!-- endbuild -->
 
       <!-- Google Analytics -->
       <script>
@@ -53,6 +61,8 @@
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
         ga('create','UA-18980393-9');ga('send','pageview');
       </script>
-      <script data-main="scripts/a53234b6.main" src="bower_components/requirejs/require.js"></script>
+      <!-- build:js scripts/main.js -->
+      <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+      <!-- endbuild -->
 </body>
 </html>
